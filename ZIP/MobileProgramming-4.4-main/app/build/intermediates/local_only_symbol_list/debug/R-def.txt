@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color cream
+color green
+color navy
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color violet
+color white
+color yellow
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id tabLayoutMain
+id toolbarMain
+id viewPager2Main
+layout activity_main
+layout fragment_opsi1
+layout fragment_opsi2
+layout fragment_opsi3
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string article_text
+string article_text2
+string article_text3
+string tablayout
+style Base.Theme.UserNavigations
+style Theme.UserNavigations
+xml backup_rules
+xml data_extraction_rules

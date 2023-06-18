@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D83B1F"
+        android:padding="10dp"
+        android:text="@string/cs_gerage"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cs_catalog"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <ImageView
+        android:id="@+id/motor"
+        android:layout_width="195dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="256dp"
+        android:contentDescription="@string/motor"
+        android:onClick="showMotor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textintro"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/motor"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/mobil"
+        android:layout_width="209dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/mobil"
+        android:onClick="showMobil"
+        app:layout_constraintTop_toBottomOf="@+id/motor"
+        app:srcCompat="@drawable/mobil1"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/sepeda"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/sepeda"
+        android:onClick="showSepeda"
+        app:layout_constraintTop_toBottomOf="@+id/mobil"
+        app:srcCompat="@drawable/speda"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="43dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="@string/motor"
+        app:layout_constraintBottom_toBottomOf="@+id/motor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/mobil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/mobil"
+        app:layout_constraintTop_toBottomOf="@+id/motor" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/sepeda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toEndOf="@+id/sepeda"
+        app:layout_constraintTop_toBottomOf="@+id/mobil" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">app4.1</string>
+    <string name="motor">motor</string>
+    <string name="sepeda">speda</string>
+    <string name="mobil">mobil</string>
+    <string name="cs_catalog">CS-Catalog</string>
+    <string name="cs_gerage">CS_Gerage</string>
+    <string name="pesanSepeda">Terimakasih Sudah Memesan Speda!!!</string>
+    <string name="pesanMobil">Terimakasih Sudah Memesan Mobil!!!</string>
+    <string name="pesanMotor">Terimakasih Sudah Memesan Motor!!!</string>
+
+</resources>

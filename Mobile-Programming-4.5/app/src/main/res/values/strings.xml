@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">app4.5</string>
+    <string name="motor">Motor</string>
+    <string name="sepeda">Sepeda</string>
+    <string name="mobil">Mobil</string>
+    <string name="desk_sepeda">Sepeda (dari bahasa Prancis: vélocipède /ve.lɔ.si.pɛd/, melalui bahasa Belanda: vélocipède /velosiˈpɛːdə/) atau kereta angin adalah kendaraan beroda dua atau tiga yang mempunyai setang, tempat duduk, dan sepasang pengayuh yang digerakkan kaki untuk menjalankannya.</string>
+    <string name="desk_motor">Sepeda motor adalah kendaraan beroda dua yang digerakkan oleh sebuah mesin. Letak kedua roda sebaris lurus dan pada kecepatan tinggi sepeda motor tetap stabil disebabkan oleh gaya giroskopik. Sedangkan pada kecepatan rendah, kestabilan atau keseimbangan sepeda motor bergantung kepada pengaturan setang oleh pengendara.</string>
+    <string name="desk_mobil">Mobil (bahasa Belanda: Mobiel) adalah kendaraan yang menggunakan bahan bakar untuk menghidupkan mesinnya. Mobil kependekan dari otomobil yang berasal dari Bahasa Yunani autos (sendiri) dan Latin movére (bergerak).Dalam bahasa Inggris, kata mobile diserap langsung dari kata aslinya dalam bahasa Latin yaitu movér beroda dua yang berati bergerak walaupun sering juga diartikan sebagai mobil atau seluler</string>
+</resources>

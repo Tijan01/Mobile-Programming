@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">item2.3</string>
+    <string name="nim">105220023_2.3v2</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="open_map">Open Map</string>
+    <string name="share_text">Share Text</string>
+    <string name="open_netflix">Open Netflix</string>
+</resources>

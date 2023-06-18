@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <Button
+
+        android:id="@+id/button_netflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/open_netflix"
+        android:onClick="openNetflix"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:onClick="dialNumber"
+        android:layout_below="@id/button_netflix"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_map"
+        android:onClick="openMap"
+        android:layout_toRightOf="@id/button_dial"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" /> />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/button_map"
+        android:layout_toRightOf="@id/button_dial"
+        android:layout_marginBottom="16dp"
+        android:onClick="shareText"
+        android:text="@string/share_text" />
+</RelativeLayout>
